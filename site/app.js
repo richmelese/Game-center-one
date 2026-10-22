@@ -220,6 +220,11 @@ const els = {
   
 };
 
+// Categories hidden from the landing page. Remove an entry to show it again.
+const HIDDEN_CATEGORIES = [
+  "word-quiz",
+];
+
 const state = {
   games: [],
   categories: [],
@@ -245,8 +250,8 @@ async function init() {
     const res = await fetch("games/registry.json", { cache: "no-store" });
     if (!res.ok) throw new Error(`registry fetch ${res.status}`);
     const data = await res.json();
-    state.games = data.games || [];
-    state.categories = data.categories || [];
+    state.games = (data.games || []).filter((g) => !HIDDEN_CATEGORIES.includes(g.category));
+    state.categories = (data.categories || []).filter((c) => !HIDDEN_CATEGORIES.includes(c.id));
   } catch (err) {
     console.error("Failed to load registry:", err);
     els.grid.innerHTML = `<p style="grid-column:1/-1;color:var(--text-dim);text-align:center;padding:40px">
