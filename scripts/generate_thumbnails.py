@@ -203,7 +203,7 @@ def generate_iconic_game(slug, category):
         draw.ellipse([215, 185, 245, 215], fill=(200, 30, 30), outline=(100, 10, 10), width=2)
         return img
 
-    elif slug in ("snake", "curve-snake"):
+    elif slug == "curve-snake":
         img = solid_gradient((15, 23, 42), (8, 12, 22), w, h)
         draw = ImageDraw.Draw(img)
         # Grid

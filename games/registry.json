@@ -1256,18 +1256,6 @@
       "description": "Catch only the matching shapes."
     },
     {
-      "slug": "shape-fitter",
-      "name": "Shape Fitter",
-      "category": "puzzle",
-      "path": "games/puzzle/shape-fitter/index.html",
-      "tech": "phaser",
-      "tags": [
-        "shapes",
-        "kids"
-      ],
-      "description": "Fit shapes into the right slots."
-    },
-    {
       "slug": "shoot-enemy",
       "name": "Shoot Enemy",
       "category": "shooter",
@@ -1326,18 +1314,6 @@
         "classic"
       ],
       "description": "Reassemble the image by sliding tiles."
-    },
-    {
-      "slug": "snake",
-      "name": "Snake",
-      "category": "arcade",
-      "path": "games/arcade/snake/index.html",
-      "tech": "phaser",
-      "tags": [
-        "snake",
-        "classic"
-      ],
-      "description": "Eat. Grow. Don't hit yourself."
     },
     {
       "slug": "snake-and-ladder",

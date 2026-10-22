@@ -148,7 +148,7 @@ const CATEGORY_GRAD = {
 
 // Game emojis
 const GAME_EMOJI = {
-  "2048": "🔢", "tetris": "🟦", "snake": "🐍", "curve-snake": "🐍",
+  "2048": "🔢", "tetris": "🟦", "curve-snake": "🐍",
   "snake-and-ladder": "🎲", "chess": "♟️", "ludo": "🎲", "tic-tac-toe": "⭕",
   "rock-paper-scissors": "✊", "carrom": "🪙", "sudoku": "🔢",
   "memory": "🧠", "memory-cards": "🧠", "pacman": "👻", "flappy": "🐤",
@@ -178,7 +178,7 @@ const GAME_EMOJI = {
   "planet-visitor": "🪐", "planet-war": "🪐",
   "hex-puzzle": "⬡", "cut-rope": "✂️", "connected": "🔗", "link": "🔗",
   "laser-bounce": "💡", "circuit-bulb": "💡", "signal-circuit": "📡",
-  "colour-pour": "🧪", "screw-master": "🔩", "shape-fitter": "🧩",
+  "colour-pour": "🧪", "screw-master": "🔩",
   "shape-collector": "🔷", "perfect-square": "⬜", "tile-tap": "🎹",
   "slide-puzzle": "🧩", "pathfinder": "🧭", "number-merge": "🔢",
   "four-dots": "🔵", "cargo-stack": "📦", "pairing": "🃏",
