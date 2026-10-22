@@ -8,8 +8,8 @@
 
 set -euo pipefail
 
-REPO="${REPO:-sausi-7/games}"
-DEMO_URL="https://sausi-7.github.io/games/"
+REPO="${REPO:-your-org/games}"
+DEMO_URL="https://your-org.github.io/games/"
 DESCRIPTION="🎮 142 playable browser games in one repo. Click and play instantly — no installs, no signups. Built with Phaser, Three.js, and vanilla JS."
 
 echo "▶ Configuring $REPO ..."

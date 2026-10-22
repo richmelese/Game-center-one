@@ -1,10 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64">
-  <defs>
-    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7c87ff"/>
-      <stop offset="50%" stop-color="#b06bff"/>
-      <stop offset="100%" stop-color="#ff7eb3"/>
-    </linearGradient>
-  </defs>
-  <text x="0" y="46" font-family="-apple-system, system-ui, Segoe UI, Roboto, sans-serif" font-size="44" font-weight="800" fill="url(#grad)">🎮 Games Hub</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" fill="none">
+  <!-- Ethio Telecom Emblem Orb -->
+  <g transform="translate(4, 6)">
+    <!-- Dark Blue curved swoosh -->
+    <path d="M 26 2 C 12 2, 2 13, 2 26 C 2 34, 6 41, 13 46 C 11 38, 13 28, 20 21 C 27 14, 38 12, 46 14 C 41 7, 34 2, 26 2 Z" fill="#0072BC"/>
+    <!-- Lemon Green curved swoosh -->
+    <path d="M 26 50 C 40 50, 50 39, 50 26 C 50 18, 46 11, 39 6 C 41 14, 39 24, 32 31 C 25 38, 14 40, 6 38 C 11 45, 18 50, 26 50 Z" fill="#8DC63F"/>
+    <!-- Core dynamic connectivity spark -->
+    <circle cx="26" cy="26" r="4.5" fill="#FFFFFF"/>
+  </g>
+  <!-- Brand text -->
+  <g transform="translate(66, 12)">
+    <text x="0" y="24" font-family="'Gotham', 'Montserrat', 'Noto Sans Ethiopic', sans-serif" font-size="24" font-weight="800" fill="#0072BC" letter-spacing="-0.5">ethio</text>
+    <text x="64" y="24" font-family="'Gotham', 'Montserrat', 'Noto Sans Ethiopic', sans-serif" font-size="24" font-weight="800" fill="#231F20" letter-spacing="-0.5">telecom</text>
+    <rect x="170" y="8" width="2" height="20" rx="1" fill="#0072BC" opacity="0.3"/>
+    <text x="180" y="23" font-family="'Gotham', 'Montserrat', 'Noto Sans Ethiopic', sans-serif" font-size="16" font-weight="700" fill="#8DC63F" letter-spacing="1.5">GAMES</text>
+    <text x="0" y="40" font-family="'Noto Sans Ethiopic', 'Gotham', sans-serif" font-size="11" font-weight="600" fill="#0072BC" opacity="0.9">ኢትዮ ቴሌኮም የጨዋታ ፖርታል</text>
+  </g>
 </svg>
