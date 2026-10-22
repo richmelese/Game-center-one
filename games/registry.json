@@ -115,18 +115,6 @@
       "description": "Classic 9x9 number logic puzzle."
     },
     {
-      "slug": "abhita",
-      "name": "Abhita",
-      "category": "arcade",
-      "path": "games/arcade/abhita/index.html",
-      "tech": "phaser",
-      "tags": [
-        "reflex",
-        "dodge"
-      ],
-      "description": "Reflex-driven dodge mini-game."
-    },
-    {
       "slug": "alien-battle",
       "name": "Alien Battle",
       "category": "shooter",
@@ -138,18 +126,6 @@
         "survival"
       ],
       "description": "Top-down alien shooter. Survive the swarm."
-    },
-    {
-      "slug": "antigravity",
-      "name": "Anti-Gravity",
-      "category": "platformer",
-      "path": "games/platformer/antigravity/index.html",
-      "tech": "phaser",
-      "tags": [
-        "physics",
-        "gravity"
-      ],
-      "description": "Flip gravity to navigate hazards."
     },
     {
       "slug": "archer",
@@ -338,18 +314,6 @@
         "aim"
       ],
       "description": "Aim and fire cannonballs at targets."
-    },
-    {
-      "slug": "cargo-stack",
-      "name": "Cargo Stack",
-      "category": "puzzle",
-      "path": "games/puzzle/cargo-stack/index.html",
-      "tech": "phaser",
-      "tags": [
-        "stacking",
-        "logistics"
-      ],
-      "description": "Pack cargo crates without overflow."
     },
     {
       "slug": "car-race",
@@ -1414,18 +1378,6 @@
       "description": "Draw sticks to bridge gaps."
     },
     {
-      "slug": "stick-toss",
-      "name": "Stick Toss",
-      "category": "arcade",
-      "path": "games/arcade/stick-toss/index.html",
-      "tech": "phaser",
-      "tags": [
-        "aim",
-        "spin"
-      ],
-      "description": "Toss sticks at the spinning target."
-    },
-    {
       "slug": "straight-rush",
       "name": "Straight Rush",
       "category": "racing",
@@ -1473,18 +1425,6 @@
         "sport"
       ],
       "description": "Volley the ping-pong ball."
-    },
-    {
-      "slug": "tap-target",
-      "name": "Tap Target",
-      "category": "arcade",
-      "path": "games/arcade/tap-target/index.html",
-      "tech": "phaser",
-      "tags": [
-        "tap",
-        "reflex"
-      ],
-      "description": "Tap targets before they vanish."
     },
     {
       "slug": "tee-shooter",
